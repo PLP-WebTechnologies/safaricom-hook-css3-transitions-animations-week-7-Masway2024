@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Button with Hover Transition -->
+    <button>Click Me</button>
+
+    <!-- Rotating Spinner -->
+    <div class="spinner"></div>
+
+    <!-- Banner that slides in on button click -->
+    <button id="animateButton" onclick="triggerAnimation()">Click to Slide</button>
+    <div id="animatedBanner" class="banner hidden">Welcome to My Site!</div>
+
+    <!-- Rectangle Area Calculator -->
+    <div>
+        <p>Area of Rectangle: <span id="areaResult"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
